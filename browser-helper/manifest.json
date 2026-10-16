@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "모아봄 Npay 탭 닫기",
+  "version": "0.2.1",
+  "description": "사용자가 포인트 받기를 직접 누른 시점부터5초 후 해당 탭을 닫고 로컬에 보관합니다.",
+  "permissions": ["storage"],
+  "background": {"service_worker": "worker.mjs", "type": "module"},
+  "content_scripts": [
+    {"matches": ["http://127.0.0.1/*"], "js": ["content.js","claim-observer.js"], "run_at": "document_idle"},
+    {"matches": ["https://campaign2.naver.com/npay/v2/click-point/*"], "js": ["claim-observer.js"], "run_at": "document_start"}
+  ]
+}
+

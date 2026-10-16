@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {assessNpay,npayView} from '../src/npay.mjs';
+const at='2026-10-16T15:11:36+09:00';
+const fixture=()=>({id:'FAKE',campaignId:'FAKE',round:'가상1회',title:'가상 클릭 적립',action:'click',checkedAt:at,verification:{publicConditions:true,accepting:true},conditions:{purchase:false,payment:false,subscription:false,follow:false,marketing:false,signup:false,appInstall:false,identityVerification:false,login:true,mobileOnly:false},points:1,method:'guaranteed',repeatRule:'가상1회만',privacySummary:'가상 설명',officialUrl:'https://campaign2.naver.com/example',evidenceUrls:['https://campaign2.naver.com/example']});
+test('Npay 공개 조건 확인된 가상 클릭·방문만 별도 판정',()=>{assert.equal(assessNpay(fixture(),at).eligible,true);const e=fixture();e.action='visit';assert.equal(assessNpay(e,at).eligible,true);e.action='watch';assert.equal(assessNpay(e,at).eligible,false);});
+test('Npay 필수 조건 누락·구매·구독·마케팅은 확인 보류',()=>{for(const key of ['purchase','payment','subscription','follow','marketing','signup','appInstall','identityVerification'])for(const value of [true,null,undefined]){const e=fixture();e.conditions[key]=value;assert.equal(assessNpay(e,at).eligible,false);}});
+test('Npay 금액·반복 횟수·로그인 환경 미확인·검증 만료는 보류',()=>{for(const edit of [e=>e.points=null,e=>e.repeatRule=null,e=>e.conditions.login=null,e=>e.checkedAt='2026-10-14T00:00:00Z',e=>e.checkedAt='2026-10-17T00:00:00Z',e=>e.verification.accepting=false,e=>e.officialUrl='https://example.com']){const e=fixture();edit(e);assert.equal(assessNpay(e,at).eligible,false);}});
+test('Npay 중복 광고·회차 구분, 경품의 영구 제외 상태를 이월하지 않음',()=>{const a=fixture(),b={...fixture(),round:'가상2회'};assert.equal(npayView({schema:'npay-click-guide-v1',items:[a,a,b]},at).items.length,2);});
+test('Npay 미확인 후보를 참여 가능 수에 포함하지 않음',()=>{const e=fixture();e.points=null;const v=npayView({schema:'npay-click-guide-v1',items:[e]},at);assert.equal(v.items.length,0);assert.equal(v.withheld.length,1);});
