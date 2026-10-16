@@ -10,7 +10,7 @@ async function loadStats(){try{const response=await fetch('/api/stats');if(!resp
  statsAdd('p',data.basis+' 주간은 월요일~일요일 기준입니다.',statsRoot,'time-note');
  const toolbar=statsAdd('div','',statsRoot,'stats-toolbar'),tabs=statsAdd('div','',toolbar,'stats-tabs');tabs.role='group';tabs.ariaLabel='통계 기간';
  for(const [period,label]of Object.entries(statsLabels)){const b=statsAdd('button',label,tabs,'button-light');b.ariaPressed=String(statsPeriod===period);b.addEventListener('click',()=>{statsPeriod=period;loadStats();});}
- const download=statsAdd('a','통계 CSV 저장 ↓',toolbar,'button-light');download.href='/api/stats.csv?period='+statsPeriod;download.download='participation-'+statsPeriod+'.csv';
+ const download=statsAdd('a','통계 CSV 저장 ↓',toolbar,'button-light');download.href=document.documentElement.dataset.mode==='web-preview'?'/_public-data/stats-'+statsPeriod+'.csv':'/api/stats.csv?period='+statsPeriod;download.download='participation-'+statsPeriod+'.csv';
  statsAdd('h3',statsLabels[statsPeriod]+' 참여 내역',statsRoot,'stats-heading');
  const wrap=statsAdd('div','',statsRoot,'stats-table-wrap'),table=statsAdd('table','',wrap,'stats-table'),thead=statsAdd('thead','',table),head=statsAdd('tr','',thead);for(const label of ['기간','이벤트','Npay','완료 기준 적립액','내역'])statsAdd('th',label,head).scope='col';const tbody=statsAdd('tbody','',table);
  for(const g of data.periods[statsPeriod].groups){const row=statsAdd('tr','',tbody);statsAdd('th',statsPeriodLabel(g.key,statsPeriod),row).scope='row';statsAdd('td',g.eventCount+'건',row);statsAdd('td',g.npayCount+'건',row);const amount=statsAdd('td',points(g.assumedPoints),row);if(g.unknownPointsCount)statsAdd('small','미확인 '+g.unknownPointsCount+'건 제외',amount);const detailCell=statsAdd('td','',row);if(!g.items.length){detailCell.textContent='기록 없음';continue;}const details=statsAdd('details','',detailCell);statsAdd('summary',g.items.length+'건 보기',details);const items=statsAdd('ul','',details);for(const item of g.items){const li=statsAdd('li','',items);statsAdd('span',new Date(item.at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' · '+(item.type==='npay'?'Npay':'이벤트'),li);statsAdd('strong',item.title,li);if(item.type==='npay')statsAdd('small',item.points===null?'금액 미확인':points(item.points),li);}}
@@ -20,3 +20,4 @@ document.querySelector('#stats-refresh').addEventListener('click',loadStats);
 document.addEventListener('page-changed',()=>{if(document.body.dataset.page==='stats')loadStats();});
 document.addEventListener('npay-auto-completed',()=>{if(document.body.dataset.page==='stats')loadStats();});
 if(location.hash==='#stats')loadStats();
+

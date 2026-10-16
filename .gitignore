@@ -4,6 +4,7 @@
 !/README.md
 !/AGENTS.md
 !/package.json
+!/vercel.json
 !/src/
 !/ui/
 !/test/
@@ -14,6 +15,7 @@
 !/tools/git-publish.mjs
 !/tools/setup-local-data.mjs
 !/tools/import-npay-missions.mjs
+!/tools/build-vercel.mjs
 /examples/*
 !/examples/data/
 **/.env

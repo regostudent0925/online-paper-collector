@@ -15,6 +15,7 @@
     "choices": "node src/selection-server.mjs",
     "setup": "node tools/setup-local-data.mjs",
     "git:check": "node tools/git-publish.mjs --check",
-    "git:publish": "node tools/git-publish.mjs"
+    "git:publish": "node tools/git-publish.mjs",
+    "build": "node tools/build-vercel.mjs"
   }
 }

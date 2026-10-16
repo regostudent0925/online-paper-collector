@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node tools/build-vercel.mjs",
+  "installCommand": "echo No external dependencies",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {"source": "/api/catalog", "destination": "/_public-data/catalog.json"},
+    {"source": "/api/npay", "destination": "/_public-data/npay.json"},
+    {"source": "/api/stats", "destination": "/_public-data/stats.json"},
+    {"source": "/api/stats.csv", "destination": "/_public-data/stats-month.csv"}
+  ],
+  "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}]}]
+}
