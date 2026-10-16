@@ -48,3 +48,8 @@ publish는 허용된 코드·문서만 스테이징 → 경로·대표 비밀정
 GitHub 운영 저장소의 main 변경을 Vercel에 자동 배포하도록 연결합니다. 저장 → 검증·커밋 → GitHub 업로드 → Vercel 빌드 → 새 웹 화면 순서이며 파일 저장만으로 배포되지 않습니다.
 
 `npm run build`는 dist에 정적 웹 미리보기를 만듭니다. Vercel은 vercel.json의 buildCommand/outputDirectory를 사용합니다. 실제 data/state는 읽지 않고 examples/data의 공개 조사 예제만 표시합니다. 이벤트 상태 저장, 개인 통계, Chrome 자동 닫기는 로컬 주소에서 사용합니다. 웹의 통계는 빈 상태이며 사이트에 이를 표시합니다. 목록 갱신은 예제 파일을 검증·커밋한 배포 시 반영됩니다. 기존 로컬 오전9시 조사 예약을 클라우드 실행으로 바꾸지는 않습니다.
+
+배포 주소: https://online-paper-collector.vercel.app/
+Vercel 프로젝트: https://vercel.com/lee-9bfb/online-paper-collector
+GitHub 소스: https://github.com/regostudent0925/online-paper-collector (main)
+기존 디자인 검토: https://online-paper-collector-design.vercel.app/ (별도 저장소)
