@@ -10,5 +10,9 @@
     {"source": "/api/stats", "destination": "/_public-data/stats.json"},
     {"source": "/api/stats.csv", "destination": "/_public-data/stats-month.csv"}
   ],
-  "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}]}]
+  "headers": [{"source": "/(.*)", "headers": [
+    {"key": "X-Content-Type-Options", "value": "nosniff"},
+    {"key": "Referrer-Policy", "value": "no-referrer"},
+    {"key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; connect-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"}
+  ]}]
 }
