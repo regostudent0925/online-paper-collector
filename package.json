@@ -16,6 +16,7 @@
     "setup": "node tools/setup-local-data.mjs",
     "git:check": "node tools/git-publish.mjs --check",
     "git:publish": "node tools/git-publish.mjs",
-    "build": "node tools/build-vercel.mjs"
+    "build": "node tools/build-vercel.mjs",
+    "public:export": "node tools/export-public.mjs"
   }
 }

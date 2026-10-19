@@ -47,9 +47,18 @@ publish는 허용된 코드·문서만 스테이징 → 경로·대표 비밀정
 
 GitHub 운영 저장소의 main 변경을 Vercel에 자동 배포하도록 연결합니다. 저장 → 검증·커밋 → GitHub 업로드 → Vercel 빌드 → 새 웹 화면 순서이며 파일 저장만으로 배포되지 않습니다.
 
-`npm run build`는 dist에 정적 웹 미리보기를 만듭니다. Vercel은 vercel.json의 buildCommand/outputDirectory를 사용합니다. 실제 data/state는 읽지 않고 examples/data의 공개 조사 예제만 표시합니다. 이벤트 상태 저장, 개인 통계, Chrome 자동 닫기는 로컬 주소에서 사용합니다. 웹의 통계는 빈 상태이며 사이트에 이를 표시합니다. 목록 갱신은 예제 파일을 검증·커밋한 배포 시 반영됩니다. 기존 로컬 오전9시 조사 예약을 클라우드 실행으로 바꾸지는 않습니다.
+`npm run build`는 dist에 정적 웹 미리보기를 만듭니다. Vercel은 vercel.json의 buildCommand/outputDirectory를 사용합니다. 빌드는 published/catalog.json의 검증된 공개 사본을 읽으며, 사본이 없는 새 설치에서는 examples/data 예제를 사용합니다. 실제 data/state는 배포 입력으로 읽지 않습니다. 이벤트 상태 저장, 개인 통계, Chrome 자동 닫기는 로컬 주소에서 사용합니다. 웹의 통계는 빈 상태이며 사이트에 이를 표시합니다. 매일 조사 뒤 public:export로 허용된 공개 필드만 내보내고 GitHub에 업로드하면 Vercel에 자동 반영됩니다. 기존 로컬 오전9시 조사 예약을 클라우드 실행으로 바꾸지는 않습니다.
 
 배포 주소: https://online-paper-collector.vercel.app/
 Vercel 프로젝트: https://vercel.com/lee-9bfb/online-paper-collector
 GitHub 소스: https://github.com/regostudent0925/online-paper-collector (main)
 기존 디자인 검토: https://online-paper-collector-design.vercel.app/ (별도 저장소)
+
+
+## 매일 공개 목록 갱신
+
+`npm run public:export`는 로컬 조사자료에서 검증된 공개 필드만 `published/catalog.json`으로 내보냅니다. 원본 객체의 알 수 없는 필드·참여 선택·이력·계정·완료·통계·완료ID 기반 재적립 증거를 제외합니다. state 폴더는 열지 않으며, 의심 개인정보 텍스트·허용되지 않은 URL 쿼리는 오류로 중단합니다. 변경이 없으면 같은 사본을 다시 저장하거나 커밋하지 않습니다. GitHub에는 이 파일 한 개만 일일 갱신합니다. 인증은 연결된 GitHub 커넥터 또는 기존 Git 인증을 사용하며 새 토큰을 소스에 저장하지 않습니다.
+
+매일9시 기존 Codex 작업에 내보내기→검사→GitHub main 업로드→Vercel Ready 확인 절차를 추가했습니다. PC와 Codex가 켜져 있어야 새 조사를 수행합니다. PC가 꺼져 있어도 이미 배포된 사이트는 열립니다.
+
+공개 웹은 방문자 공통 목록입니다. 개인별 참여완료·미관심 제외 결과를 공개 목록에 반영하지 않습니다. 따라서 로컬 목록과 개수가 다를 수 있으며, 웹 개인 통계는0입니다. 실제 개인정보와 개인 선택은 계속 로컬에만 남습니다. 새 필드를 공개하려면 src/public-catalog.mjs의 허용 목록과 검사를 명시적으로 수정해야 합니다.

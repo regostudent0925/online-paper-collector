@@ -16,3 +16,5 @@
 
 
 2026-10-16 추가 승인: 운영 GitHub를 Vercel에 연결하여 코드 변경을 웹 미리보기로 자동 배포할 수 있다. 기존 v0 디자인 프로젝트는 보존한다. tools/build-vercel.mjs와 vercel.json만으로 examples/data를 사용한 정적 dist를 만들며 실제 data/state 및 개인 기록을 업로드하지 않는다. 공개 웹에서는 저장·보조 확장을 동작시키지 않는다. 클라우드 개인 기록 저장·유료 인프라·권한 확대는 별도 승인 대상이다.
+
+2026-10-19 사용자 승인: 매일 조사한 이벤트·Npay의 공개 메타데이터를 published/catalog.json으로 선별하여 운영 GitHub main 및 Vercel에 자동 반영할 수 있다. tools/export-public.mjs의 허용 필드·URL·개인정보 검사와 빌드의 재검증을 거친 사본만 공개한다. 실제 data/state/verification은 계속 Git에서 제외하고 state/current.json을 공개 내보내기에서 읽지 않는다. 개인 참여·미관심·통계·계정·쿠키·토큰·완료 기반 재적립 증거는 공개하지 않는다. 웹은 모든 방문자 공통 공개 목록이며 로컬 개인 제외 상태를 반영하지 않는다. GitHub 인증 실패·검증 실패는 성공으로 기록하지 말고 필요한 조치만 알린다.
