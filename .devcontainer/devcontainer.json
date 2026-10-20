@@ -10,5 +10,5 @@
     }
   },
   "postCreateCommand": "node tools/build-vercel.mjs",
-  "postStartCommand": "node tools/build-vercel.mjs && (nohup node tools/codespaces-server.mjs > /tmp/online-paper-collector.log 2>&1 &)"
+  "postStartCommand": "node tools/build-vercel.mjs && node tools/start-codespaces.mjs"
 }
