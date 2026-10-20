@@ -1,259 +1,12 @@
 {
   "schema": "published-event-catalog-v1",
-  "updatedAt": "2026-10-19T00:00:57.031Z",
-  "events": [
-    {
-      "id": "knoc-20260910-215",
-      "organizer": "한국석유공사",
-      "title": "석유사랑9+10월호 퀴즈 풀고 상품 받자",
-      "round": "2026-9+10월호 vol.215",
-      "type": "quiz",
-      "campaignId": "sabo-215-quiz",
-      "discoveryUrls": [
-        "https://www.suto.co.kr/cpevent?page=3&pm=30"
-      ],
-      "officialUrl": "https://www.knoc.co.kr/sabo/215/sub/sub15.html",
-      "entryUrl": "https://smore.im/form/Lu1qlQlnKQ",
-      "dates": {
-        "start": "2026-10-08",
-        "end": "2026-10-30",
-        "endPrecision": "date",
-        "timezone": "Asia/Seoul",
-        "announcement": null
-      },
-      "lastCheckedAt": "2026-10-19T00:00:45.079Z",
-      "eligibility": {
-        "description": "공개 공고의 지역·연령·직업 제한 명시 미확인. 사용자 자격 확인 전",
-        "unrestricted": null,
-        "userConfirmed": null
-      },
-      "conditions": {
-        "purchase": null,
-        "payment": null,
-        "deposit": null,
-        "paidMembership": null,
-        "paidShipping": null,
-        "publicComment": null,
-        "channelSubscription": null,
-        "newsletter": null,
-        "follow": null,
-        "like": null,
-        "marketing": null,
-        "login": null,
-        "signup": null,
-        "appInstall": null,
-        "identityVerification": null
-      },
-      "privacy": {
-        "fields": [],
-        "purpose": "경품 발송",
-        "retention": "종료 후 즉시 파기",
-        "recipients": null,
-        "processors": null,
-        "consentReviewed": false
-      },
-      "prize": {
-        "description": "네이버페이 포인트1만원20명·커피 기프티콘20명",
-        "count": 40,
-        "method": "lottery"
-      },
-      "steps": [
-        "공식 공고·힌트 및 필수 조건 확인",
-        "사용자가 직접 응모"
-      ],
-      "duplicateRule": null,
-      "questions": [
-        {
-          "kind": "factual",
-          "question": "2026 한국석유공사 숏폼 공모전에서 강조한 공사의 역할·중요성 관련 빈칸(3글자+2글자)",
-          "answerNumber": null,
-          "answerText": "에너지 안보",
-          "verified": true,
-          "evidenceUrls": [
-            "https://www.knoc.co.kr/sabo/215/sub/sub1.html"
-          ],
-          "checkedAt": "2026-10-19T00:00:45.079Z",
-          "uncertainties": "공식 이미지 첫 빈칸과 힌트 본문 대조. 폼의 번호·선택지 순서는 동의 이후라 미확인."
-        },
-        {
-          "kind": "factual",
-          "question": "국가가 필요한 에너지를 안정적으로 확보·공급할 수 있는 능력을 뜻하는 용어",
-          "answerNumber": null,
-          "answerText": "에너지 안보",
-          "verified": true,
-          "evidenceUrls": [
-            "https://www.knoc.co.kr/sub01/sub01_10_2.jsp",
-            "https://www.knoc.co.kr/sabo/215/sub/sub1.html"
-          ],
-          "checkedAt": "2026-10-18T00:01:41.058Z",
-          "uncertainties": "공식 비전의 에너지 확보·공급 설명과 공고의 정의를 대조. 공식 폼의 번호·선택지는 동의 이후라 미확인."
-        }
-      ],
-      "userResponseItems": [],
-      "automationPolicy": "unknown",
-      "verification": {
-        "official": true,
-        "form": true,
-        "accepting": true,
-        "conditionsComplete": false,
-        "access": "consent-wall"
-      },
-      "directReview": {
-        "listingApproved": true,
-        "officialPeriod": true,
-        "checkedAt": "2026-10-19T00:00:45.079Z",
-        "evidenceUrls": [
-          "https://www.knoc.co.kr/sabo/215/sub/sub15.html",
-          "https://smore.im/form/Lu1qlQlnKQ",
-          "https://www.knoc.co.kr/sabo/215/sub/sub1.html"
-        ],
-        "warnings": [
-          "자격·중복 제한·최종 개인정보 및 동의를 제출 전에 직접 확인하세요."
-        ]
-      }
-    },
-    {
-      "id": "arte-202610-83834",
-      "organizer": "한국문화예술교육진흥원 arte라이브러리",
-      "title": "arte라이브러리10월 퀴즈 이벤트",
-      "round": "2026-10",
-      "type": "quiz",
-      "campaignId": "BRD_ID0083834",
-      "discoveryUrls": [
-        "https://lib.arte.or.kr/information/board/ArteEvent_BoardList.do?page_no=1"
-      ],
-      "officialUrl": "https://lib.arte.or.kr/information/board/ArteEvent_BoardView.do?board_id=BRD_ID0083834",
-      "entryUrl": "https://form.naver.com/response/6NLUXOxUhMj",
-      "dates": {
-        "start": "2026-10-13T09:00:00+09:00",
-        "end": "2026-10-22T23:30:00+09:00",
-        "endPrecision": "minute",
-        "timezone": "Asia/Seoul",
-        "announcement": "2026-10-27"
-      },
-      "lastCheckedAt": "2026-10-19T00:00:45.079Z",
-      "eligibility": {
-        "description": "공개 폼에 별도 지역·연령·직업 제한 미기재. 사용자 자격 확인 전",
-        "unrestricted": null,
-        "userConfirmed": null
-      },
-      "conditions": {
-        "purchase": false,
-        "payment": false,
-        "deposit": false,
-        "paidMembership": false,
-        "paidShipping": false,
-        "publicComment": false,
-        "channelSubscription": false,
-        "newsletter": false,
-        "follow": false,
-        "like": false,
-        "marketing": false,
-        "login": null,
-        "signup": false,
-        "appInstall": false,
-        "identityVerification": false
-      },
-      "privacy": {
-        "fields": [
-          "성명",
-          "연락처"
-        ],
-        "purpose": "이벤트 당첨자 확인 및 경품 지급",
-        "retention": "경품 지급 완료시까지",
-        "recipients": "공개 폼에 별도 제3자 제공 대상 미기재",
-        "processors": "공개 폼에 별도 위탁 대상 미기재",
-        "consentReviewed": true
-      },
-      "prize": {
-        "description": "메가커피 아메리카노 기프티콘",
-        "count": 100,
-        "method": "lottery"
-      },
-      "steps": [
-        "공식 공고·힌트 및 필수 조건 확인",
-        "사용자가 직접 응모"
-      ],
-      "duplicateRule": "1인1회 응모 가능. 중복 참여 시 당첨 제외.",
-      "questions": [
-        {
-          "kind": "factual",
-          "question": "문화예술교육 자료를 주제별로 모아 제공하는 추천 콘텐츠의 하위 메뉴 이름은?",
-          "options": [
-            "베스트 인기 자료",
-            "이달의 문화소식",
-            "주제별 큐레이션"
-          ],
-          "answerNumber": 3,
-          "answerText": "주제별 큐레이션",
-          "verified": true,
-          "evidenceUrls": [
-            "https://lib.arte.or.kr/artepick/board/Collection_BoardList.do"
-          ],
-          "checkedAt": "2026-10-19T00:00:45.079Z",
-          "uncertainties": "선택지 순서가 달라지면 답안 내용 기준으로 선택"
-        }
-      ],
-      "userResponseItems": [],
-      "automationPolicy": "unknown",
-      "verification": {
-        "official": true,
-        "form": true,
-        "accepting": true,
-        "conditionsComplete": true,
-        "access": "ok"
-      },
-      "directReview": {
-        "listingApproved": true,
-        "officialPeriod": true,
-        "checkedAt": "2026-10-19T00:00:45.079Z",
-        "evidenceUrls": [
-          "https://lib.arte.or.kr/information/board/ArteEvent_BoardView.do?board_id=BRD_ID0083834",
-          "https://form.naver.com/response/6NLUXOxUhMj",
-          "https://lib.arte.or.kr/artepick/board/Collection_BoardList.do"
-        ],
-        "warnings": [
-          "자격·중복 제한·최종 개인정보 및 동의를 제출 전에 직접 확인하세요."
-        ]
-      }
-    }
-  ],
+  "updatedAt": "2026-10-20T00:06:27.185Z",
+  "events": [],
   "npay": {
     "schema": "npay-click-guide-v1",
-    "checkedAt": "2026-10-19T00:00:57.031Z",
+    "checkedAt": "2026-10-20T00:06:27.185Z",
     "items": [],
     "directLinks": [
-      {
-        "id": "adison-730013",
-        "campaignId": "730013",
-        "round": "2026-10-16 게시글",
-        "title": "네이버운세",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "visit",
-        "adUrl": "https://ofw.adison.co/u/naverpay/ads/730013",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
       {
         "id": "official-mission-1217967",
         "campaignId": "npay-ad-1217967",
@@ -266,8 +19,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -297,8 +50,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -328,8 +81,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -359,8 +112,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -390,39 +143,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
-        "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 실제 지급·계정별 대상",
-          "체류 시간·추가 동작·최종 동의",
-          "구매·가입·개인정보 필수 여부",
-          "개별 URL의 요청 식별자 제거 후 연결 동작",
-          "동일 광고의 재적립 가능 여부"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": null,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "official-mission-1207751",
-        "campaignId": "npay-ad-1207751",
-        "round": "공식 광고ID 기준 · 회차 미공개",
-        "title": "하나 무빙카드 올데이모드 · 10월 최대 23만원 캐시백",
-        "rewardKey": "official-mission:1207751",
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://point.pay.naver.com/bridge/eventbenefit?fromPage=DETAIL_FROM_BANNER&inventory=pay%3Ebenefit_group&placementId=benefit_group_pp&adId=1207751",
-        "claimedPoints": 15,
-        "pointBasis": "official-list",
-        "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -452,8 +174,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -483,8 +205,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -514,8 +236,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -545,8 +267,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -576,8 +298,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -610,8 +332,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -641,8 +363,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -672,39 +394,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
-        "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 실제 지급·계정별 대상",
-          "체류 시간·추가 동작·최종 동의",
-          "구매·가입·개인정보 필수 여부",
-          "개별 URL의 요청 식별자 제거 후 연결 동작",
-          "동일 광고의 재적립 가능 여부"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": null,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "official-mission-1215300",
-        "campaignId": "npay-ad-1215300",
-        "round": "공식 광고ID 기준 · 회차 미공개",
-        "title": "NH투자증권 · 나무증권 신규휴면 선녀급혜택",
-        "rewardKey": "official-mission:1215300",
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://point.pay.naver.com/bridge/eventbenefit?fromPage=DETAIL_FROM_BANNER&inventory=pay%3Ebenefit_group&placementId=benefit_group_pp&adId=1215300",
-        "claimedPoints": 15,
-        "pointBasis": "official-list",
-        "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -734,8 +425,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -754,37 +445,6 @@
         }
       },
       {
-        "id": "67823",
-        "campaignId": "67823",
-        "round": "2026-10-17 게시글",
-        "title": "가장 빠른 즉시적립 혜택 보기",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://ofw.adison.co/u/naverpay/ads/67823",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
         "id": "official-mission-1221003",
         "campaignId": "npay-ad-1221003",
         "round": "공식 광고ID 기준 · 회차 미공개",
@@ -796,8 +456,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -827,39 +487,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
-        "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 실제 지급·계정별 대상",
-          "체류 시간·추가 동작·최종 동의",
-          "구매·가입·개인정보 필수 여부",
-          "개별 URL의 요청 식별자 제거 후 연결 동작",
-          "동일 광고의 재적립 가능 여부"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": null,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "official-mission-1220472",
-        "campaignId": "npay-ad-1220472",
-        "round": "공식 광고ID 기준 · 회차 미공개",
-        "title": "삼성BIZ iD SELECT · 10월 최대 21만원 혜택",
-        "rewardKey": "official-mission:1220472",
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://point.pay.naver.com/bridge/eventbenefit?fromPage=DETAIL_FROM_BANNER&inventory=pay%3Ebenefit_group&placementId=benefit_group_pp&adId=1220472",
-        "claimedPoints": 15,
-        "pointBasis": "official-list",
-        "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -889,8 +518,8 @@
         "claimedPoints": 15,
         "pointBasis": "official-list",
         "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-19T00:00:57.031Z",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
         "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
@@ -909,354 +538,31 @@
         }
       },
       {
-        "id": "cr_2026101904_2610_2_1310",
-        "campaignId": "cr_2026101904_2610_2_1310",
-        "round": "2026-10-19 게시글",
-        "title": "삼성증권 신규 계좌개설",
-        "rewardKey": null,
-        "priorTitles": [
-          "삼성증권 · 삼성증권 신규 계좌개설하면"
-        ],
+        "id": "official-mission-1218286",
+        "campaignId": "npay-ad-1218286",
+        "round": "공식 광고ID 기준 · 회차 미공개",
+        "title": "NH투자증권 · 나무증권 신규휴면 선녀급혜택",
+        "rewardKey": "official-mission:1218286",
+        "priorTitles": [],
         "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026101904_2610_2_1310",
+        "adUrl": "https://point.pay.naver.com/bridge/eventbenefit?fromPage=DETAIL_FROM_BANNER&inventory=pay%3Ebenefit_group&placementId=benefit_group_pp&adId=1218286",
         "claimedPoints": 15,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
+        "pointBasis": "official-list",
+        "sourceUrl": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
+        "sourceDate": "2026-10-20",
+        "checkedAt": "2026-10-20T00:06:27.185Z",
+        "conditionsText": "공식 목록에서 클릭 15원으로 표시. 광고 제목의 상품·금융 혜택과 클릭 보상은 구분. 최종 적립 화면 조건은 미확인.",
         "repeatRule": null,
         "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
+          "현재 실제 지급·계정별 대상",
+          "체류 시간·추가 동작·최종 동의",
+          "구매·가입·개인정보 필수 여부",
+          "개별 URL의 요청 식별자 제거 후 연결 동작",
+          "동일 광고의 재적립 가능 여부"
         ],
         "listingActive": true,
         "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "cr_2026101905_2610_0955",
-        "campaignId": "cr_2026101905_2610_0955",
-        "round": "2026-10-19 게시글",
-        "title": "쿠팡이츠",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026101905_2610_0955",
-        "claimedPoints": 15,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "cr_20261012_2610_2_1677",
-        "campaignId": "cr_20261012_2610_2_1677",
-        "round": "2026-10-19 게시글",
-        "title": "키움증권",
-        "rewardKey": null,
-        "priorTitles": [
-          "키움증권 · 신규계좌 3종 개설 10만원",
-          "키움증권 · 키움증권 친구초대 하러가면"
-        ],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261012_2610_2_1677",
-        "claimedPoints": 10,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "cr_car_261019_1830",
-        "campaignId": "cr_car_261019_1830",
-        "round": "2026-10-19 게시글",
-        "title": "BMW",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_car_261019_1830",
-        "claimedPoints": 10,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "cr_pointdraw_261019_1277",
-        "campaignId": "cr_pointdraw_261019_1277",
-        "round": "2026-10-19 게시글",
-        "title": "클립 챌린지 · 선플을 응원해①",
-        "rewardKey": null,
-        "priorTitles": [
-          "클립 챌린지 · 선플을 응원해",
-          "오늘 클립 챌린지 ①",
-          "오늘 클립 챌린지 ②"
-        ],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261019_1277",
-        "claimedPoints": 10,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "cr_pointdraw_261019_7777",
-        "campaignId": "cr_pointdraw_261019_7777",
-        "round": "2026-10-19 게시글",
-        "title": "클립 챌린지 · 선플을 응원해②",
-        "rewardKey": null,
-        "priorTitles": [
-          "클립 챌린지 · 선플을 응원해",
-          "오늘 클립 챌린지 ①",
-          "오늘 클립 챌린지 ②"
-        ],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261019_7777",
-        "claimedPoints": 10,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "pointdraw_benefit_261019",
-        "campaignId": "pointdraw_benefit_261019",
-        "round": "2026-10-19 게시글",
-        "title": "Npay 혜택",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261019",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "pointdraw_cstore_261019",
-        "campaignId": "pointdraw_cstore_261019",
-        "round": "2026-10-19 게시글",
-        "title": "Npay 편의점",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_cstore_261019",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "pointdraw_homefire_261019",
-        "campaignId": "pointdraw_homefire_261019",
-        "round": "2026-10-19 게시글",
-        "title": "Npay 주택화재보험",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_homefire_261019",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "pointdraw_popular_insur_261019",
-        "campaignId": "pointdraw_popular_insur_261019",
-        "round": "2026-10-19 게시글",
-        "title": "Npay 인기 보험",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_popular_insur_261019",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
-          "officialListingRead": null,
-          "officialConditions": false,
-          "rewardLinkOpened": false
-        }
-      },
-      {
-        "id": "1106850",
-        "campaignId": "1106850",
-        "round": "2026-10-19 게시글",
-        "title": "메디힐",
-        "rewardKey": null,
-        "priorTitles": [],
-        "action": "click",
-        "adUrl": "https://ofw.adison.co/u/naverpay/ads/1106850",
-        "claimedPoints": 1,
-        "pointBasis": null,
-        "sourceUrl": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=548843",
-        "sourceDate": "2026-10-19",
-        "checkedAt": "2026-10-18T23:58:34.745Z",
-        "conditionsText": "공개 게시글의 클릭 적립 소개. 실제 지급·체류·추가 과제·개인정보·동의·금융상품/구매 조건 미확인. 가입·구매·구독·필수 마케팅을 요구하면 제외.",
-        "repeatRule": null,
-        "unknowns": [
-          "현재 지급·종료·선착순 여부",
-          "공식 금액·지급 방식",
-          "로그인·기기 제한",
-          "개인정보·동의·추가 과제",
-          "공식 재적립 기간·횟수"
-        ],
-        "listingActive": true,
-        "verification": {
-          "publicPostRead": true,
+          "publicPostRead": null,
           "officialListingRead": null,
           "officialConditions": false,
           "rewardLinkOpened": false
@@ -1265,9 +571,9 @@
     ],
     "missionSource": {
       "url": "https://point.pay.naver.com/pc/mission-detail?dataType=placement&rank=1&pageKey=benefit_group_pp&rankType=RANDOM_DAILY&sortCompletedAdToLast=true&mssCode=pp",
-      "checkedAt": "2026-10-19T00:00:57.031Z",
-      "count": 20,
-      "coverage": "초기20개·하단20개 유지,scrollTop1404.16+viewport766=height2170. 현재 계정·시점 제공 목록만. 원래 href의 3개 공통 필드 및 adId를 읽고 조회 식별자 제거. 광고 클릭 없음. 午前9時以降20件と同一広告ID・下端を再確認。"
+      "checkedAt": "2026-10-20T00:06:27.185Z",
+      "count": 18,
+      "coverage": "한국시간 09:04 공식 목록 18개, 문서 하단 확인. 현재 계정·시점 제공 목록만. href에서 requestId 제거. 개별 광고 클릭 없음."
     }
   }
 }

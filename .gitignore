@@ -5,6 +5,7 @@
 !/AGENTS.md
 !/package.json
 !/vercel.json
+!/.devcontainer/
 !/src/
 !/ui/
 !/test/
@@ -16,6 +17,7 @@
 !/tools/setup-local-data.mjs
 !/tools/import-npay-missions.mjs
 !/tools/build-vercel.mjs
+!/tools/codespaces-server.mjs
 /examples/*
 !/examples/data/
 **/.env

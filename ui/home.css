@@ -45,4 +45,7 @@ main>.hero,main>.stats{display:none}body[data-page="npay"] #page-npay,#page-toda
 
 .record-backup{margin:16px 0 24px;padding:20px;border:1px solid #dce3d9;border-radius:12px;background:#fff}.record-backup h3{margin:0 0 10px}.record-backup p{line-height:1.7;color:#566c63}.backup-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.backup-actions label{cursor:pointer}.backup-actions input{display:block;max-width:245px;margin-top:8px}#import-preview{margin-top:14px;padding:12px;background:#f3f6ed}#import-preview button{margin:4px}.npay-quick-actions{flex-wrap:wrap}
 
+/* Microsoft Rewards: PC에서 직접 참여하는 공식 링크 */
+#page-rewards{padding-top:28px}.rewards-dashboard-link{text-decoration:none}.rewards-panel{min-width:0;padding:22px;background:white;border:1px solid var(--line);border-radius:12px}.rewards-earn-panel{max-width:760px}.rewards-panel h3{margin:0 0 14px;font-size:18px}.rewards-list{border-top:1px solid var(--line)}.rewards-list article{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;padding:16px 0}.rewards-list strong{font-size:14px}.rewards-list p{margin:7px 0 0;color:var(--muted);font-size:11px;line-height:1.7}.rewards-list .entry-link{font-size:11px;padding:10px 12px}@media(max-width:760px){.rewards-list article{grid-template-columns:1fr}.rewards-list .entry-link{justify-self:start}.rewards-panel{padding:18px}}
+
 

@@ -1,0 +1,14 @@
+{
+  "name": "온라인 폐지줍기",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [4179],
+  "portsAttributes": {
+    "4179": {
+      "label": "온라인 폐지줍기",
+      "onAutoForward": "openBrowser",
+      "protocol": "http"
+    }
+  },
+  "postCreateCommand": "node tools/build-vercel.mjs",
+  "postStartCommand": "node tools/build-vercel.mjs && (nohup node tools/codespaces-server.mjs > /tmp/online-paper-collector.log 2>&1 &)"
+}

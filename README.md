@@ -73,3 +73,13 @@ Vercel 방문자는 참여 상태, Npay 완료, 일간·주간·월간·연간 �
 
 개인 데이터는 브라우저와 사용자가 내려받은 파일에만 남는다. 백업은 참여 내역을 포함하므로 공개 저장소에 업로드하지 않는다. Git 업로드는 소스·테스트·검증된 공개 목록만 허용하고 data/state/verification/dist 및 임의 백업 파일은 계속 제외한다. Vercel 배포 파일에는 빈 통계만 들어가며 실제 개인 통계는 브라우저에서 계산한다. 외부 전송 코드·분석 스크립트·사용자 기록 API는 추가하지 않는다.
 
+## GitHub Codespaces 미리보기
+
+`codespaces-deploy` 브랜치에서 Codespace를 만들면 공개용 정적 빌드를 생성한 뒤 4179 포트를 자동으로 엽니다. 공개 빌드는 `published/catalog.json`만 읽으며 `data/`, `state/`, 개인 참여 기록, 쿠키와 토큰을 포함하지 않습니다. 참여 상태와 통계는 방문한 브라우저의 로컬 저장소에만 남습니다.
+
+1. 저장소에서 **Code → Codespaces → Create codespace on codespaces-deploy**를 선택합니다.
+2. 브라우저에 열린 4179 포트에서 화면을 확인합니다.
+3. 다른 사람과 임시로 공유할 때만 **PORTS → 4179 → Port Visibility → Public**을 선택합니다.
+
+Codespace를 중지하거나 삭제하면 전달 URL도 더 이상 동작하지 않습니다. 상시 공개 주소가 필요하면 기존 Vercel 배포를 사용합니다.
+
