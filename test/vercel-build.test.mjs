@@ -27,3 +27,11 @@ test('Vercel 설정은 정적 빌드와 읽기 API만 연결한다',()=>{
  assert.ok(config.rewrites.every(r=>r.destination.startsWith('/_public-data/')));
  assert.ok(!config.rewrites.some(r=>r.source.includes('complete')||r.source.includes('select')));
 });
+
+test('인증 공개 설정만 출력하고 비밀 키·누락 설정은 빌드 전에 거부한다',t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'auth-web-build-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ for(const name of ['ui','examples'])fs.cpSync(new URL('../'+name,import.meta.url),path.join(root,name),{recursive:true});
+ const names=['PUBLIC_SUPABASE_URL','PUBLIC_SUPABASE_PUBLISHABLE_KEY'],old=names.map(n=>process.env[n]);t.after(()=>names.forEach((n,i)=>{if(old[i]===undefined)delete process.env[n];else process.env[n]=old[i];}));
+ process.env.PUBLIC_SUPABASE_URL='https://mock.supabase.co';process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY='sb_secret_fixture';assert.throws(()=>buildVercel({rootDir:root}),/publishable/);assert.equal(fs.existsSync(path.join(root,'dist')),false);
+ process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY='sb_publishable_fixture';const result=buildVercel({rootDir:root});assert.deepEqual(JSON.parse(fs.readFileSync(path.join(result.out,'auth-config.json'))),{url:'https://mock.supabase.co',key:'sb_publishable_fixture'});for(const file of ['auth.js','account-records.js'])assert.ok(fs.existsSync(path.join(result.out,file)));assert.match(fs.readFileSync(path.join(result.out,'index.html'),'utf8'),/type="module" src="\/auth.js"/);
+});

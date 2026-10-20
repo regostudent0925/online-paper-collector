@@ -2,7 +2,7 @@ import {execFileSync} from 'node:child_process';import path from 'node:path';imp
 import {validatePublicCatalog} from '../src/public-catalog.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const git=(args,extra={})=>execFileSync('git',args,{cwd:root,encoding:'utf8',...extra});
-const allowed=p=>p==='published/catalog.json'||['.gitignore','README.md','AGENTS.md','package.json','vercel.json'].includes(p)||/^(src|ui|test|browser-helper)\/[\w./-]+\.(?:mjs|js|css|html|json|md)$/.test(p)||/^examples\/data\/(events|direct-events|npay|sources)\.json$/.test(p)||/^tools\/(git-publish|setup-local-data|import-npay-missions|build-vercel|export-public)\.mjs$/.test(p);
+const allowed=p=>p==='.devcontainer/devcontainer.json'||p==='published/catalog.json'||['.gitignore','README.md','AGENTS.md','package.json','vercel.json'].includes(p)||/^(src|ui|test|browser-helper)\/[\w./-]+\.(?:mjs|js|css|html|json|md|sql)$/.test(p)||/^examples\/data\/(events|direct-events|npay|sources)\.json$/.test(p)||/^tools\/(git-publish|setup-local-data|import-npay-missions|build-vercel|export-public|codespaces-server|start-codespaces)\.mjs$/.test(p);
 function checkPaths(paths){for(const p of paths){if(!allowed(p)||/(?:^|\/)(?:\.env[^/]*|node_modules|state|verification|exports|data|\.git)(?:\/|$)/.test(p)&&!p.startsWith('examples/data/'))throw Error('업로드 범위 밖 파일: '+p);}}
 try{
  const tracked=git(['ls-files','-z']).split('\0').filter(Boolean);checkPaths(tracked);

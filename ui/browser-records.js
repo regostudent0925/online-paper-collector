@@ -1,4 +1,4 @@
-// 개인 기록은 이 모듈의 localStorage와 사용자가 내려받는 파일 안에서만 처리한다.
+// 비로그인 기록은 localStorage, 로그인 기록은 인증된 계정 저장소로 분리한다.
 import {statsView,statsCsv} from './record-stats.js';
 export const STORAGE_KEY='paper-collector-personal-v1';
 const SCHEMA='paper-collector-backup-v1',MAX_BYTES=5*1024*1024,MAX_ROWS=10000;
@@ -45,6 +45,8 @@ export class BrowserRecordStore{
  export(){return JSON.stringify({...this.read(),exportedAt:this.now()},null,2);}
  import(raw){const incoming=parseBackup(raw);return this.transact(state=>{const merged=mergeRecords(state,incoming);Object.assign(state,merged);return {events:state.events.length,npay:state.npay.length};});}
 }
-let singleton;
-export function browserStore(){return singleton??=new BrowserRecordStore(window.localStorage);}
+let singleton,accountStore;
+export function setAccountStore(store){accountStore=store;}
+export function hasAccountStore(){return Boolean(accountStore);}
+export function browserStore(){return accountStore||(singleton??=new BrowserRecordStore(window.localStorage));}
 export function downloadLocal(content,name,type='application/json'){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
